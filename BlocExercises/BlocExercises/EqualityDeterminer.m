@@ -12,7 +12,12 @@
 
 - (BOOL) string:(NSString *)string1 isTheSameAsString:(NSString *)string2 {
     /* WORK HERE */
-    return (string1 == string2);
+    
+    NSString *cerealString = @"Cheerios";
+    NSString *identicalCerealString = @"Cheerios";
+    BOOL cerealEquality = cerealString == identicalCerealString;
+    
+    return cerealEquality;
 }
 
 - (BOOL) number:(NSNumber *)number1 isTheSameAsNumber:(NSNumber *)number2 {
